@@ -5,9 +5,11 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.password">system</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost/todoapp</property>
-        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">932681bf3ab0102ae80149db714da4db6d2d933f1509974f7b5132f6b8346174
+</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://ec2-52-1-95-247.compute-1.amazonaws.com:5432
+/dd9k8o1kqbo09j?sslmode=require</property>
+        <property name="hibernate.connection.username">qhtmvcpvunkxdl</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
